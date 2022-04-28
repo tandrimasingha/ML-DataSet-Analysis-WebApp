@@ -18,3 +18,13 @@ A Simple EDA App for full Analysis of ML Dataset. The user need to Upload any da
 ![image](https://img.shields.io/badge/Matplotlib-000000?style=for-the-badge&logo=matplotlib&logoColor=white)&nbsp;&nbsp;
 ![image](https://img.shields.io/badge/Seaborn-000000?style=for-the-badge&logo=seaborn&logoColor=white)&nbsp;&nbsp;
 ![image](https://img.shields.io/badge/Streamlit-000000?style=for-the-badge&logo=streamlit&logoColor=white)&nbsp;&nbsp;
+
+### Structure of the Web App:
+
+- It is a streamlit webapp which contains a navigation bar and the home page.
+- The navigation bar consists of About the Project and About the Author.
+- The home screen consists of a file of CSV format upload option.
+- The User need to upload a dataset of csv format and the web app will give the full analysis of the Dataset
+- Analysis such as - shape of the dataset, value count, description of the dataset such as mean, median, mode, the datatype of the columns.
+- Then comes the Visualization part where graph plot will be shown such as - Heatmap, Pie chart, Plots of value count of any columns chosen by the user. You can also see the Customizable Plot such as bar plot, kde , box plot, line plot, hist, area.
+
